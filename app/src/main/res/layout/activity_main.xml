@@ -1,50 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/adatokOlvasasaBtn"
-        android:text="@string/adatok_olvas_sa"
-        />
-    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@string/adatok_olvas_sa" />
+
+    <Button
         android:id="@+id/adatokRogziteseBtn"
-        android:text="@string/adatok_r_gz_t_se"
-        />
-    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@string/adatok_r_gz_t_se" />
+
+    <Button
         android:id="@+id/adatokModositasaBtn"
-        android:text="@string/adatok_m_dos_t_sa"
-        />
-    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@string/adatok_m_dos_t_sa" />
+
+    <Button
         android:id="@+id/adatTorlese"
-        android:text="@string/adat_t_rl_se"
-        />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adat_t_rl_se" />
+
     <ScrollView
         android:id="@+id/SCROLLER_ID"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:scrollbars="vertical"
-        android:fillViewport="true">
+        android:fillViewport="true"
+        android:scrollbars="vertical">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/adatokTextView"
-        android:scrollbars = "vertical"
-        android:text=""
-        />
+        <TextView
+            android:id="@+id/adatokTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:text="" />
     </ScrollView>
 </LinearLayout>
