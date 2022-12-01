@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SQLite</string>
+    <string name="adatok_olvas_sa">Adatok Olvasása</string>
+    <string name="adatok_r_gz_t_se">Adatok Rögzítése</string>
+    <string name="adatok_m_dos_t_sa">Adatok Módosítása</string>
+    <string name="adat_t_rl_se">Adat Törlése</string>
+    <string name="r_gz_t_s">Rögzítés</string>
+    <string name="vissza">Vissza</string>
+    <string name="vezet_kn_v">Vezetéknév</string>
+    <string name="keresztn_v">Keresztnév</string>
+    <string name="jegy">Jegy</string>
+</resources>
