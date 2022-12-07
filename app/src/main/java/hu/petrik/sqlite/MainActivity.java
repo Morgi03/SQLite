@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -50,6 +51,24 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, DataRead.class);
             startActivity(intent);
             finish();
+        });
+
+        adatokModositasaBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ModositasActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        adatTorlese.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, TorlesActivity.class);
+                startActivity(intent);
+                finish();
+            }
         });
     }
 
